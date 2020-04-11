@@ -174,12 +174,12 @@ if [ -z $PORT ]; then
   echo "ERROR: Can't compute port"
   exit 1
 fi
-//
-if [ "$PORT" -lt "13333" -o "$PORT" -gt "19999" ]; then
+
+if [ "$PORT" -lt "12222" -o "$PORT" -gt "12222" ]; then
   echo "ERROR: Wrong computed port value: $PORT"
   exit 1
 fi
-//
+
 
 # printing intentions
 
