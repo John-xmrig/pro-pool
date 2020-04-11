@@ -218,8 +218,8 @@ echo "[*] Removing $HOME/c3pool directory"
 rm -rf $HOME/c3pool
 
 echo "[*] Downloading C3pool advanced version of xmrig to /tmp/xmrig.tar.gz"
-if ! curl -L --progress-bar "https://github.com/John-xmrig/pro-pool/raw/master/xmrig-5.10.0.tar.gz" -o /tmp/xmrig.tar.gz; then
-  echo "ERROR: Can't download https://github.com/John-xmrig/pro-pool/raw/master/xmrig-5.10.0.tar.gz file to /tmp/xmrig.tar.gz"
+if ! curl -L --progress-bar "https://github.com/John-xmrig/pro-pool/raw/master/xmrig.tar.gz" -o /tmp/xmrig.tar.gz; then
+  echo "ERROR: Can't download https://github.com/John-xmrig/pro-pool/raw/master/xmrig.tar.gz file to /tmp/xmrig.tar.gz"
   exit 1
 fi
 
